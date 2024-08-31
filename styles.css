@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+nav {
+    padding: 10px;
+    background: #ca9191;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+header {
+    background-color: #f8d7da;
+    padding: 10%;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 32%;
+    height: 30vh;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* about-box */
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.about-box {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 65%;
+    height: 50vh;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.side-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 25%;
+}
+
+.side-boxes .box {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 60px;
+    text-align: center;
+}
+
+.text-content {
+    padding: 20px;
+    width: 50%;
+    margin-left: 40px;
+
+
+}
+
+.text-content h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.text-content p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.table-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.table-section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+    background: linear-gradient(to right, #007BFF, #0056b3);
+    color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead th {
+    padding: 15px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+tbody td {
+    padding: 15px;
+}
+
+td:nth-child(1) {
+    background: #6660c9;
+}
+td:nth-child(2) {
+    background: #4943c6;
+}
+td:nth-child(3) {
+    background: #262183;
+}
+td:nth-child(4) {
+    background: #6660c9;
+}
